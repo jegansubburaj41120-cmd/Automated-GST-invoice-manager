@@ -1,0 +1,17 @@
+{
+  "name": "gst-invoice-receipt-manager",
+  "version": "1.0.0",
+  "description": "Complete Production-Ready GST Invoice & Receipt Management System",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "init-db": "cd backend && node database/initDb.js",
+    "seed": "cd backend && node database/seed.js",
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "package": "node package-app.js"
+  },
+  "keywords": ["gst", "invoice", "receipt", "billing", "fullstack", "react", "nodejs", "mysql"],
+  "author": "GST Billing Pro",
+  "license": "MIT"
+}

@@ -1,0 +1,12 @@
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+backend/public/invoices/*.pdf
+backend/public/receipts/*.pdf
+backend/public/qrcodes/*.png
+!backend/public/invoices/.gitkeep
+!backend/public/receipts/.gitkeep
+!backend/public/qrcodes/.gitkeep
+*.log
